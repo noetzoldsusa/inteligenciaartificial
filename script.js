@@ -9,41 +9,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 //com os atributos texto e afirmação
 const perguntas = [
     {
-        enunciado: "Qual a importância do 2PAC na cultura de plantações e ervas medicinais indigenas?",
+        enunciado: "Em qual momento histórico o movimento dadaísta surgiu?",
         alternativas: [
             {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            texto: "Primeira Guerra Mundial.",
+            afirmacao: "O dadaísmo, ou dadá, surgiu no contexto da Primeira Guerra Mundial como um movimento provocativo e de reflexão sobre os horrores da guerra. "
             },
             {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
+            texto: "seculo XX",
+            afirmacao: "foi um movimento artístico pertencente às vanguardas europeias do século XX, cujo lema era: "a destruição também é criação"."
             },
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "o que foi o dadaísmo? ",
         alternativas: [
             {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            texto: "Movimento artistico com ideoligias anarquistas."
+            afirmacao: "O Dadaísmo foi um movimento que surgiu no início do século XX dentro de um cabaré em Zurique, Suíça no ano de 1916. Ele foi idealizado por anarquistas intelectuais germânicos que queriam desconstruir a arte, contrariando a sociedade, a religião, a ciência e a filosofia. "
             },
             {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
+            texto: "ma palavra internacional. Apenas uma palavra e uma palavra como movimento",
+            afirmacao: "“Dadá é uma nova tendência da arte. Percebe-se que o é porque, sendo até agora desconhecido, amanhã toda a Zurique vai falar dele. Dadá vem do dicionário. É bestialmente simples. Em francês quer dizer "cavalo de pau". Em alemão: "Não me chateies, faz favor, adeus, até à próxima!" Em romeno: "Certamente, claro, tem toda a razão, assim é. Sim, senhor, realmente. Já tratamos disso." E assim por diante. Uma palavra internacional. Apenas uma palavra e uma palavra como movimento”"
             },
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "qual a origem do dadaismo?"
         alternativas: [
             {
-            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
-            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            texto: "A busca do termo veio de um dicionario alemão."
+            afirmacao: "Segundo relatos dos historiadores, a busca pelo termo foi feita em um dicionário alemão por Tristan Tzara, que ao colocar uma espátula no meio do livro encontrou a palavra “Dada” e leu o seguinte significado: “Dada não significa nada”, porém na linguagem infantil a palavra quer dizer “cavalo-de-madeira”. Os dadaístas não se preocupavam com o significado correto da palavra, o que eles pretendiam era mostrar o caráter ilógico do movimento consagrado como tendência artística. Para eles, o importante era que o Dadaísmo não perdesse a essência de irracionalidade diante das guerras e, seguindo o significado encontrado no dicionário por Tristan Tzara, com elementos “sem sentido”"
             },
             {
-            texto: "Alternativa2",
-            afirmacao: "afirmacao1"
+            texto: "Não se constrói a sensibilidade sobre uma palavra",
+            afirmacao: "Dada não significa nada: Sabe-se pelos jornais que os negros Krou denominam a cauda da vaca santa: Dada. O cubo é a mãe em certa região da Itália: Dada. Um cavalo de madeira, a ama-de-leite, dupla afirmação em russo e em romeno: Dada. Sábios jornalistas viram nela uma arte para os bebês, outros Jesus chamando criancinhas do dia, o retorno ao primitivismo seco e barulhento, barulhento e monótono. Não se constrói a sensibilidade sobre uma palavra; toda a construção converge para a perfeição que aborrece, a ideia estagnante de um pântano dourado, relativo ao produto humano. "
             },
         ]
     },
@@ -90,7 +90,9 @@ function respostaSelecionada(opcaoSelecionada){
 }//função que mostrará o resultado final 
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Conclusão...";
+    caixaPerguntas.textContent = "Conclusão: "O Dadaísmo, ou Dada (cavalinho de pau, em francês), foi um movimento e fenômeno cultural que ocorreu de 1916 a 1922 em alguns países da Europa e nos Estados Unidos (EUA). Diferente de outros estilos artísticos que contemplavam a arte e a estética pictórica, o Dadaísmo questionava qual era o objetivo da arte e o seu valor cultural.
+Considerado um movimento de vanguarda que propunha a antiarte, o Dadaísmo teve como representantes artistas e intelectuais de diversas nacionalidades, em especial alemães, franceses e romenos. A forma de expressão dos dadaístas era ilógica, destrutiva e, ao mesmo tempo, engraçada e infantil."
+
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 
